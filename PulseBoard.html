@@ -25,10 +25,15 @@
     </header>
     <main>
         <section>
+            <h1>PulseBoard</h1>
+            <p><b>What problem does it solve?</b> Providers with hundreds of active sessions have no live visibility into their network. PulseBoard will give them a real-time dashboard for active VPN/PPPoE sessions and bandwidth so they can catch problems before subscribers do.</p>
+            <p><b>My approach</b> Start with a polling architecture to get something working, then move to WebSockets for streams where latency actually matters. Every metric on the dashboard has to earn its place.</p>
+            <p><b>The hardest thing I expect to learn</b> Scaling real-time data. Pushing raw data to the frontend won't hold up under load, figuring out what to aggregate server-side versus what to send to the client will be the key challenge.</p>
   
         </section>
 
     </main>
+    <hr>
     <footer>
         <h4>Let's Connect </h4>
         <a href="http://">Github</a>

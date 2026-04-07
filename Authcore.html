@@ -25,10 +25,19 @@
     </header>
     <main>
         <section>
+            <h1>Authcore</h1>
+            <p><b>What problem does it solve?</b>Small internet providers are managing authentication with scripts and spreadsheets, with the only plattforms available to them being very expensive. AuthCore will bring RADIUS authentication, accounting, and billing into one system so they always know who's connected</p>
+            <p><b>My approach</b>AuthCore is built around AAA, which stands for Authentication, Authorization, and Accounting. It is a framework that controls who gets access to a network, what they are allowed to do once connected, and tracks their usage for billing purposes. Every session on the network passes through all three stages, which makes it the right foundation for a system that needs to be both secure and billable.</p>
+            <p>I plan to build each layer of AAA in order. Get authentication solid first, then enforce authorization rules, then wire in accounting so usage data flows cleanly into billing.</p>
+            <p>(video: how AAA works)</p>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/8h_Pprrfjmk" title="How Does a RADIUS Server Work?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p><b>The hardest thing I expect to learn</b>RADIUS is an old protocol with a lot of vendor-specific quirks. I expect the biggest challenge to be handling how different routers interpret the same standard differently.</p>
+            
   
         </section>
 
     </main>
+    <hr>
     <footer>
         <h4>Let's Connect </h4>
         <a href="http://">Github</a>
