@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felix Nderitu — Portfolio</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-        <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="about.html">about</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
+<div class="container">
 
-        </nav>
-        
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-    </header>
-    <main>
-        <section>
-            <img src="assets/images/profile.png" alt="profile photo" width="300px">
-            <h4>Hi,I'm Felix Nderitu</h4>
-            <p>A network admin currently taking part in the MCtaba labs Fullstack marathon.</p>
+  <main>
+    <section class="hero">
 
-            
-        </section>
+      <div class="hero-left">
+        <!-- <div class="hero-bg-gradient"></div> -->
+      
+        <div class="profile-info">
+         
+          <p class="profile-title">Hi, I'm</p>
+          <h1 class="profile-name">Felix <span>Nderitu</span></h1>
+          <p class="profile-des">A network admin currently taking part in the MCtaba Labs Fullstack Marathon.</p>
+         
+        </div>
+      </div>
 
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
-
-    </footer>
+      <div class="hero-right">
+        <div class="profile-img">
+          <img src="/assets/images/profile.png" alt="profile-photo" width="450px">
+        </div>
     
-  </div>
+      </div>
+
+    </section>
+  </main>
+
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </footer>
+
+</div>
 </body>
 </html>

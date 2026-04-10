@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Felix Nderitu</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
+<div class="container">
 
-        </nav>
-        
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-    </header>
-    <main>
-        <section>
-            <h1>Blogs</h1>
-            <hr>
-            <article>
-                <h4>My First Week at Mctaba Labs.</h4>
-
-                <p>I've had  quite a good experience and i was able to learn alot .</p>
-                <p>We covered semantic HTML, and it's not just about making things display correctly, it's about giving your content meaning.
-
-            </article>
-            <hr>
-             <article>
-                <h4>Why Semantic HTML Matters.</h4>
-                <p> Tags like header, section, article, and footer aren't just organizational, they tell the browser, the search engine, and assistive technologies exactly what they're looking at.</p>
-                
-            </article>
-            <hr>
-             <article>
-             <h4>Projects in Progress</h4>
-             <p>This portfolio is the first of many, built to practice and showcase semantic HTML and folder structure.</p>
-             <p>I have a few networking tools in the pipeline, which I'll be highlighting on the <a href="projects.html">Projects</a> page and later added to my updated Portfolio</p>
-            </article>
-            <hr>
-           
-        </section>
-
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
-
-    </footer>
+  <main>
+    <div class="page-hero">
+      <div class="section-label">Writing</div>
+      <h1>Blog</h1>
+   
     </div>
-    
+
+    <div class="blog-list">
+      <article class="blog-card">
+        <div class="blog-card-meta">
+          <span class="blog-tag">MCtaba Labs</span>
+          <span class="blog-date">Week 1 · 2026</span>
+        </div>
+        <h4>My First Week at MCtaba Labs</h4>
+        <p>I've had quite a good experience and was able to learn a lot. We covered semantic HTML, and it's not just about making things display correctly — it's about giving your content meaning.</p>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-card-meta">
+          <span class="blog-tag">HTML</span>
+          <span class="blog-date">Week 1 · 2026</span>
+        </div>
+        <h4>Why Semantic HTML Matters</h4>
+        <p>Tags like header, section, article, and footer aren't just organizational — they tell the browser, the search engine, and assistive technologies exactly what they're looking at.</p>
+       
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-card-meta">
+          <span class="blog-tag">Projects</span>
+          <span class="blog-date">Week 1 · 2026</span>
+        </div>
+        <h4>Projects in Progress</h4>
+        <p>This portfolio is the first of many, built to practice and showcase semantic HTML and folder structure. I have a few networking tools in the pipeline which I'll be highlighting on the <a href="projects.html" style="color:var(--g)">Projects</a> page.</p>
+        
+      </article>
+    </div>
+  </main>
+
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
+
+</div>
 </body>
 </html>

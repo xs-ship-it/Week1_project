@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseBoard — Felix Nderitu</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="Authcore.html">AuthCore</a></li>
-                <li><a href="NetCRM.html">NetCRM</a></li>
+<div class="container">
 
-            </ul>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-        </nav>
-        
-
-    </header>
-    <main>
-        <section>
-            <h1>PulseBoard</h1>
-            <p><b>What problem does it solve?</b> Providers with hundreds of active sessions have no live visibility into their network. PulseBoard will give them a real-time dashboard for active VPN/PPPoE sessions and bandwidth so they can catch problems before subscribers do.</p>
-            <p><b>My approach</b> Start with a polling architecture to get something working, then move to WebSockets for streams where latency actually matters. Every metric on the dashboard has to earn its place.</p>
-            <p><b>The hardest thing I expect to learn</b> Scaling real-time data. Pushing raw data to the frontend won't hold up under load, figuring out what to aggregate server-side versus what to send to the client will be the key challenge.</p>
-  
-        </section>
-
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
-
-    </footer>
+  <main>
+    <div class="project-detail">
+      <div class="section-label">Project</div>
+      
+      <h1>PulseBoard</h1>
+      <p class="project-subtitle">Real-time dashboard for VPN/PPPoE session monitoring and bandwidth.</p>
+      <div class="detail-block">
+        <h3>Problem</h3>
+        <p>Providers with hundreds of active sessions have no live visibility into their network. <strong>PulseBoard</strong> gives them a real-time dashboard for active VPN/PPPoE sessions and bandwidth so they can catch problems before subscribers do.</p>
+      </div>
+      <div class="detail-block">
+        <h3>Approach</h3>
+        <p>Start with a polling architecture to get something working, then move to WebSockets for streams where latency actually matters. Every metric on the dashboard has to earn its place.</p>
+      </div>
+      <div class="detail-block">
+        <h3>Hardest challenge</h3>
+        <p>Scaling real-time data. Pushing raw data to the frontend will not hold up under load — figuring out what to aggregate server-side versus what to send to the client will be the key challenge.</p>
+      </div>
+      <div class="project-pills" style="margin-top:2.4rem">
+        <span class="project-pill">React</span>
+        <span class="project-pill">WebSockets</span>
+        <span class="project-pill">Python</span>
+        <span class="project-pill">RADIUS Accounting</span>
+      </div>
     </div>
-    
+  </main>
+
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
+
+</div>
 </body>
 </html>

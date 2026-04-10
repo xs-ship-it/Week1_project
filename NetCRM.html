@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetCRM — Felix Nderitu</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="Authcore.html">NetCRM</a></li>
-                <li><a href="PulseBoard.html">PulseBoard</a></li>
+<div class="container">
 
-            </ul>
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-        </nav>
-        
+  <main>
+    <div class="project-detail">
+      <div class="section-label">Project</div>
+      
+      <h1>NetCRM</h1>
+      <p class="project-subtitle">Web-based CRM for ISP subscriber management and support tickets.</p>
+      <div class="detail-block">
+        <h3>Problem</h3>
+        <p>Support teams manage subscribers through WhatsApp and phone calls. <strong>NetCRM</strong> gives them a proper tool to track subscribers, plans, and support tickets without needing expensive enterprise software.</p>
+      </div>
+      <div class="detail-block">
+        <h3>Approach</h3>
+        <p>Design the interface around real support workflows first — fast lookups and full subscriber history at a glance — before touching the data model.</p>
+      </div>
+      <div class="detail-block">
+        <h3>Hardest challenge</h3>
+        <p>Building for non-technical users. The real challenge will be keeping things simple enough that anyone can pick it up without training.</p>
+      </div>
+      <div class="project-pills" style="margin-top:2.4rem">
+        <span class="project-pill">React</span>
+        <span class="project-pill">Node.js</span>
+        <span class="project-pill">PostgreSQL</span>
+        <span class="project-pill">JWT</span>
+      </div>
+    </div>
+  </main>
 
-    </header>
-    <main>
-        <section>
-            <h1>NetCRM</h1>
-            <p><b>What problem does it solve?</b>  Support teams manage subscribers through WhatsApp and phone calls. NetCRM will give them a proper tool to track subscribers, plans, and support tickets without needing expensive enterprise software.</p>
-            <p><b>My approach</b> Design the interface around real support workflows first, fast lookups and full subscriber history at a glance, before touching the data model.</p>
-            <p><b>The hardest thing I expect to learn</b>
-Building for non-technical users. I know I'll be tempted to add flexibility and options, but the real challenge will be keeping things simple enough that anyone can pick it up without training.</p>
-  
-        </section>
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
 
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
-
-    </footer>
-    
+</div>
 </body>
 </html>

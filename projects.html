@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Felix Nderitu</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
+<div class="container">
 
-        </nav>
-        
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-    </header>
-    <main>
-        <section>
-            <h1>Projects</h1>
-            <p><b></b>This are some of projects that i'll  be working on and a small description of what each is does.</p>
-            <ul>
-                <li><a href="Authcore.html">AuthCore</a>   RADIUS authentication server with user auth, accounting, and billing integration</li><br>
-                <li><a href="NetCRM.html">NetCRM</a>  Web-based CRM for managing ISP subscribers, plans, and support tickets </li><br>
-                <li><a href="PulseBoard.html">PulseBoard</a> Real-time dashboard for monitoring active VPN/PPPoE sessions and bandwidth</li>
-            </ul>
-        </section>
-        <hr>
-        <section>
-            <p>The following technologies will be used to build and run the projects, each projcet uses a different stack.</p>
-            <table border="1">
-        
-                <thead>
-                    <tr>
-                        <th>Project</th>
-                        <th>Technologies</th>
+  <main>
+    <div class="page-hero">
+      <div class="section-label">Work</div>
+      <h1>Projects</h1>
+      <p>Networking tools I'm building during the MCtaba Labs Fullstack Marathon.</p>
+    </div>
 
-                    </tr>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-thumb">AuthCore</div>
+        <div class="project-body">
+          <div class="project-title">AuthCore</div>
+          <div class="project-desc">RADIUS authentication server with user auth, accounting, and billing integration for small ISPs.</div>
 
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>AuthCore</td>
-                        <td> FreeRADIUS, Python, PostgreSQL, Linux</td>
+          <a class="project-link" href="Authcore.html">View project →</a>
+        </div>
+      </div>
 
-                    </tr>
-                    <tr>
-                        <td>NetCRM</td>
-                        <td>React, Node.js, PostgreSQL, JWT</td>
+      <div class="project-card">
+        <div class="project-thumb">NetCRM</div>
+        <div class="project-body">
+          <div class="project-title">NetCRM</div>
+          <div class="project-desc">Web-based CRM for managing ISP subscribers, plans, and support tickets without enterprise costs.</div>
+       
+          <a class="project-link" href="NetCRM.html">View project →</a>
+        </div>
+      </div>
 
-                    </tr>
-                    <tr>
-                        <td>PulseBoard</td>
-                        <td>React, WebSockets, Python, RADIUS Accounting </td>
+      <div class="project-card">
+        <div class="project-thumb">PulseBoard</div>
+        <div class="project-body">
+          <div class="project-title">PulseBoard</div>
+          <div class="project-desc">Real-time dashboard for monitoring active VPN/PPPoE sessions and bandwidth usage.</div>
+         
+          <a class="project-link" href="PulseBoard.html">View project →</a>
+        </div>
+      </div>
+    </div>
 
-                    </tr>
+    <div class="tech-table-wrap">
+      <div class="section-label">Tech stack</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Technologies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AuthCore</td>
+            <td>FreeRADIUS, Python, PostgreSQL, Linux</td>
+          </tr>
+          <tr>
+            <td>NetCRM</td>
+            <td>React, Node.js, PostgreSQL, JWT</td>
+          </tr>
+          <tr>
+            <td>PulseBoard</td>
+            <td>React, WebSockets, Python, RADIUS Accounting</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
 
-                </tbody>
-                <tfoot>
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
 
-                </tfoot>
-            </table>
-
-        </section>
-
-
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
-
-    </footer>
-    
+</div>
 </body>
 </html>

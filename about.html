@@ -1,45 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Felix Nderitu</title>
+  <script src="https://kit.fontawesome.com/cff8cdf81f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="container">
-     <header>
-        <nav>
-            <a href="index.html">Felix Nderitu</a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="projects.html">projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
+<div class="container">
 
-        </nav>
-        
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Felix <span class="logo-name">Nderitu</span></a>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button class="contact-button"><a href="contact.html">Let's Talk</a></button>
+    </nav>
+  </header>
 
-    </header>
-    <main>
-        <section>
-            <h1>About me</h1>
-            <h4>I'm Felix Nderitu</h4>
-            <img src="assets/images/profile.png" alt="profile photo" width="200px">
-            <p>Just wrapped up the first week of the marathon and I'm genuinely grateful for how much ground I've covered ,<br>From semantic HTML and major tags to folder structure.<br>It's been a solid foundation and I'm excited to see where this journey leads by the end of the program.</p>
+  <main>
+    <div class="page-hero">
+      <div class="section-label">About me</div>
+      <h1>I'm Felix <span>Nderitu</span></h1>
+      <p>Network admin, builder, and lifelong learner. Currently expanding into full-stack development through the MCtaba Labs Fullstack Marathon.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img src="assets/images/profile.png" alt="profile-photo" width="450px">
+        <div class="about-img-overlay"></div>
+      </div>
+
+      <div class="about-content">
+        <div>
+          <div class="section-label">My story</div>
+          <p>Just wrapped up the first week of the marathon and I'm genuinely grateful for how much ground I've covered — from semantic HTML and major tags to folder structure. It's been a solid foundation and I'm excited to see where this journey leads by the end of the program.</p>
+        </div>
+
+        <div>
+          <div class="section-label">Skills</div>
+          <div class="skills">
+            <div class="skill-row">
+              <span class="skill-name">Networking</span>
+              <div class="skill-bar">
+              <div class="skill-fill" style="width:70%"></div>
+            </div>
+              <span class="skill-pct">70%</span>
+            </div>
            
-        </section>
+            <div class="skill-row">
+              <span class="skill-name">HTML / CSS</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:50%"></div></div>
+              <span class="skill-pct">50%</span>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar"><div class="skill-fill" style="width:1%"></div></div>
+              <span class="skill-pct">1%</span>
+            </div>
+     
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    </main>
-    <hr>
-    <footer>
-        <h4>Let's Connect </h4>
-        <a href="http://">Github</a>
-        <a href="http://">LinkedIn</a>
+  <div class="footer-mark"></div>
+  <footer>
+    <p>&copy; 2026 Felix Nderitu</p>
+    <div class="contact-cons">
+      <a href="https://github.com/xs-ship-it" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/felix-nderitu-9883ab20b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </footer>
 
-    </footer>
-   </div>
-    
+</div>
 </body>
 </html>
