@@ -96,7 +96,7 @@ nav ul li a {
   padding-bottom: 2px;
   transition: color 0.15s;
 }
-/* 
+
 nav ul li a::after {
   content: '';
   position: absolute;
@@ -104,7 +104,7 @@ nav ul li a::after {
   width: 0; height: 1px;
   background: var(--g);
   transition: width 0.2s;
-} */
+}
 
 nav ul li a:hover { color: var(--g); }
 nav ul li a:hover::after { width: 100%; }
@@ -135,27 +135,6 @@ main {
 }
 
 
-.strip {
-  background: var(--g);
-  padding: 1rem 3.2rem;
-  display: flex;
-  gap: 2.4rem;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.strip span {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.strip-dot { color: rgba(255, 255, 255, 0.4); }
-
-
 .hero {
   display:flex;
   min-height: calc(100vh - 6.4rem);
@@ -173,24 +152,6 @@ main {
   overflow: hidden;
 }
 
-.hero-bg-gradient {
-  position: absolute;
-  inset: 0;
-  /* background: linear-gradient(160deg, #0d200d 0%, #1a3a1a 40%, #0a120a 100%); */
-}
-
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  /* background:
-    linear-gradient(to top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0.4) 50%, transparent 100%),
-    linear-gradient(to right, transparent 50%, var(--bg) 100%); */
-}
-
-.profile-img {
-  /* width: 400px;
-  height: 600px; */
-}
 
 .profile-info {
   position: relative;
@@ -338,7 +299,6 @@ main {
 
 .btn-secondary:hover { border-color: var(--gb); color: var(--g); }
 
-/* ── PAGE HERO (about, blog, contact, projects) */
 .page-hero {
   padding: 5.6rem 0 3.2rem;
   border-bottom: 1px solid var(--bd);
@@ -364,7 +324,7 @@ main {
   line-height: 1.7;
 }
 
-/* section label (reusable) */
+
 .section-label {
   font-family: var(--font-body);
   font-size: 1rem;
@@ -392,12 +352,10 @@ main {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--bd);
-  /* aspect-ratio: 4/5; */
+  
 }
 
 .about-img-wrap img {
-  /* width: 100%;
-  height: 100%; */
   object-fit: cover;
   object-position: top;
   filter: grayscale(15%);
@@ -419,7 +377,6 @@ main {
 
 .about-content p strong { color: var(--tx); font-weight: 600; }
 
-/* skills */
 .skills { display: flex; flex-direction: column; gap: 1.4rem; }
 
 .skill-row { display: flex; align-items: center; gap: 1.2rem; }
@@ -455,7 +412,7 @@ main {
   flex-shrink: 0;
 }
 
-/* ── BLOG PAGE ─────────────────────────────── */
+
 .blog-list {
   display: flex;
   flex-direction: column;
@@ -770,7 +727,7 @@ legend {
   margin-bottom: 0;
 }
 
-/* input[type="radio"] { accent-color: var(--g); width: 1.5rem; height: 1.5rem; } */
+
 
 textarea { resize: vertical; min-height: 14rem; }
 
@@ -848,7 +805,7 @@ details p {
   padding: 0 2.4rem 2rem;
 }
 
-/* ── FOOTER ────────────────────────────────── */
+
 .footer-mark {
   height: 1px;
   width: 100%;
@@ -900,19 +857,17 @@ footer a:hover { color: var(--g); }
 
 footer i { font-size: 1.4rem; }
 
-/* ── HR ────────────────────────────────────── */
 hr {
   border: none;
   border-top: 1px solid var(--bd);
   margin: 0;
 }
 
-/* ── RESPONSIVE ────────────────────────────── */
 @media (max-width: 900px) {
   .hero { display: flex;
           flex-direction: column-reverse;
   }
-  /* .hero-right {  } */
+
   .about-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
 }
